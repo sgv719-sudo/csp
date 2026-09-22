@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JONNADA Village — Information Portal</title>
+<meta name="description" content="Village information portal for JONNADA Village: government schemes, schools, health centre, emergency contacts and local businesses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-row">
+    <a class="brand" href="#top">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="20" cy="20" r="19" stroke="#33502E" stroke-width="2"/>
+        <path d="M8 26c3-8 8-13 12-13s9 5 12 13" stroke="#33502E" stroke-width="2" stroke-linecap="round"/>
+        <path d="M14 26v-6l6-5 6 5v6" stroke="#B9812A" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <span class="brand-text">JONNADA Village<small>Information Portal</small></span>
+    </a>
+    <input type="checkbox" id="navCheck">
+    <label class="nav-toggle" for="navCheck" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="primary" id="primaryNav">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About Village</a></li>
+        <li><a href="#schemes">Schemes</a></li>
+        <li><a href="#schools">Schools</a></li>
+        <li><a href="#health">PHC</a></li>
+        <li><a href="#emergency">Emergency Contacts</a></li>
+        <li><a href="#businesses">Businesses</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" style="border-bottom:none; padding-bottom:0;">
+    <div class="wrap hero-inner">
+      <div>
+        <h1>Everything the village office would tell you, in one place.</h1>
+        <p class="lede">Schemes, school and clinic details, emergency numbers and local shops for JONNADA Village residents — no office visit needed to find them.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#emergency">Emergency numbers</a>
+          <a class="btn btn-outline" href="#schemes">Browse schemes</a>
+        </div>
+      </div>
+      <svg class="hero-art" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line illustration of fields, a village house and the sun">
+        <circle cx="400" cy="55" r="32" fill="none" stroke="#B9812A" stroke-width="2.5"/>
+        <path d="M0 190c60-24 100-24 160 0s100 24 160 0 100-24 160 0v70H0z" fill="none" stroke="#33502E" stroke-width="2"/>
+        <path d="M0 215c60-18 100-18 160 0s100 18 160 0 100-18 160 0v45H0z" fill="#33502E" opacity="0.12"/>
+        <path d="M120 190v-46l40-30 40 30v46" fill="none" stroke="#24261F" stroke-width="2.5" stroke-linejoin="round"/>
+        <path d="M120 190h80" stroke="#24261F" stroke-width="2.5"/>
+        <rect x="150" y="160" width="16" height="30" fill="none" stroke="#24261F" stroke-width="2"/>
+        <path d="M40 190c6-30 4-55-8-70" fill="none" stroke="#33502E" stroke-width="2" stroke-linecap="round"/>
+        <path d="M320 190c-4-26 0-48 12-62" fill="none" stroke="#33502E" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="quickstrip wrap" style="padding:0;">
+    <a href="tel:100"><span class="num">100</span> Police</a>
+    <a href="tel:108"><span class="num">108</span> Ambulance</a>
+    <a href="tel:101"><span class="num">101</span> Fire</a>
+    <a href="#emergency"><span class="num">→</span> All contacts</a>
+  </div>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div>
+        <div class="section-head" style="border:none; margin-bottom:16px;">
+          <h2>About the village</h2>
+        </div>
+        <p>JONNADA Village sits in a farming region where wheat, pulses and vegetables are the main crops. The Gram Panchayat office coordinates local governance, and this portal was built so residents can find scheme details, school and clinic information, and important numbers without waiting in line at the office.</p>
+        <p>Everything here is kept current by the Panchayat office. If a detail looks out of date, contact the office using the details at the bottom of this page.</p>
+      </div>
+      <ul class="fact-list">
+        <li><span class="k">District</span><span class="v">VIZIANAGARAM</span></li>
+        <li><span class="k">State</span><span class="v">ANDHRA PRADESH</span></li>
+        <li><span class="k">Population</span><span class="v">1536</span></li>
+        <li><span class="k">Households</span><span class="v">400</span></li>
+        <li><span class="k">Gram Panchayat</span><span class="v">JONNADA Village GP</span></li>
+        <li><span class="k">Pin code</span><span class="v">535005</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="schemes">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Government schemes</h2>
+        <p class="tag">Schemes residents most often apply for through the Panchayat office.</p>
+      </div>
+      <ul class="scheme-list">
+        <li>
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\PM.png" alt=" PM-KISAN" loading="lazy">
+            <figcaption>PM-KISAN </figcaption>
+          </figure>
+          <h3>PM-KISAN</h3>
+          <p>Income support for landholding farmer families, paid directly to bank accounts in instalments.</p>
+          <p class="link-row"><a href="https://pmkisan.gov.in/" target="_blank" rel="noopener noreferrer">Official portal ↗</a></p>
+        </li>
+        <li>
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\AP.webp" alt="AP BENIFICIARIES" loading="lazy">
+            <figcaption>AP BENIFICIARIES</figcaption>
+          </figure>
+          <h3>AP BENIFICIARIES PORTAL</h3>
+          <p>AP Beneficiary Portal generally refers to an Andhra Pradesh Government online system used to manage and provide information about beneficiaries of government welfare schemes</p>
+          <p class="link-row"><a href="https://gsws-nbm.ap.gov.in/BM/Schemeout" target="_blank" rel="noopener noreferrer">Official portal ↗</a></p>
+        </li>
+        <li>
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\jnana.webp" alt="scholarship schemes" loading="lazy">
+            <figcaption>STUDENT SCHOLARSHIP</figcaption>
+          </figure>
+          <h3>Scholarship schemes</h3>
+          <p>Pre- and post-matric scholarships for students from eligible backgrounds.</p>
+          <p class="link-row"><a href="https://jnanabhumi.ap.gov.in/" target="_blank" rel="noopener noreferrer">State Scholarships Portal ↗</a></p>
+        </li>
+        <li>
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\house.jpg" alt="Housing schemes" loading="lazy">
+            <figcaption>Add a photo: houses built under the scheme</figcaption>
+          </figure>
+          <h3>Housing schemes</h3>
+          <p>Assistance for building or upgrading a pucca house under PM Awas Yojana — Gramin.</p>
+          <p class="link-row"><a href="https://housing.ap.gov.in/" target="_blank" rel="noopener noreferrer">Official portal ↗</a></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="schools">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Schools</h2>
+        <p class="tag">Government schools serving JONNADA Village.</p>
+      </div>
+      <div class="card-grid">
+        <div class="info-card">
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\Screenshot 2026-09-18 110004.png" alt="Photo placeholder for ZP High School" loading="lazy">
+            <figcaption>school building</figcaption>
+          </figure>
+          <h3>ZP High School</h3>
+          <div class="meta">Classes 6–10 · Zilla Parishad</div>
+          <dl>
+            <div><dt>Medium</dt><dd>ENGLISH</dd></div>
+            <div><dt>Headmaster</dt><dd>	G Lakshmi</dd></div>
+            <div><dt>UDISC CODE</dt><dd>28122702405</dd></div>
+          </dl>
+          <p class="link-row"><a href="https://www.google.com/maps/search/?api=1&query=ZP+High+School+JONNADA+Village" target="_blank" rel="noopener noreferrer">Get directions ↗</a></p>
+        </div>
+        <div class="info-card">
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\1-5.jpeg" alt="Primary School" loading="lazy">
+            <figcaption> school building</figcaption>
+          </figure>
+          <h3>Primary School</h3>
+          <div class="meta">Classes 1–5</div>
+          <dl>
+            <div><dt>Medium</dt><dd>ENGLISH</dd></div>
+            <div><dt>Headteacher</dt><dd>SIMHACHALAM</dd></div>
+            <div><dt>UDISC CODE</dt><dd>28122702401</dd></div>
+          </dl>
+          <p class="link-row"><a href="https://www.google.com/maps/search/?api=1&query=Primary+School+JONNADA+Village" target="_blank" rel="noopener noreferrer">Get directions ↗</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="health">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Health</h2>
+        <p class="tag">Nearest government health facility.</p>
+      </div>
+      <div class="card-grid">
+        <div class="info-card">
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\PHC.jpeg" alt="Primary Health Centre" loading="lazy">
+            <figcaption>MOHAR KRUPA PHC</figcaption>
+          </figure>
+          <h3>Primary Health Centre</h3>
+          <div class="meta">General OPD · Immunisation · Maternal care</div>
+          <dl>
+            <div><dt>OPD hours</dt><dd>7AM - 10PM</dd></div>
+            <div><dt>Doctor available</dt><dd>MON-SAT</dd></div>
+            <div><dt>Contact</dt><dd>9491153421</dd></div>
+          </dl>
+          <p class="link-row"><a href="https://www.google.com/maps/search/?api=1&query=Primary+Health+Centre+JONNADA+Village" target="_blank" rel="noopener noreferrer">Get directions ↗</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="emergency" style="background:var(--green-dark); border-bottom:none;">
+    <div class="wrap">
+      <div class="section-head" style="border:none;">
+        <h2 style="color:#fff;">Emergency contacts</h2>
+        <p class="tag" style="color:#C9D6C4;">Save these numbers — they work from any phone.</p>
+      </div>
+      <div class="contact-panel">
+        <div class="contact-grid">
+          <div class="card">
+            <div class="role">Gram Panchayat office</div>
+            <div class="number"><a href="tel:0000000000">7731968271</a></div>
+          </div>
+          <div class="card">
+            <div class="role">Police</div>
+            <div class="number"><a href="tel:100">100</a></div>
+          </div>
+          <div class="card">
+            <div class="role">Ambulance</div>
+            <div class="number"><a href="tel:108">108</a></div>
+          </div>
+          <div class="card">
+            <div class="role">Fire</div>
+            <div class="number"><a href="tel:101">101</a></div>
+            <div class="note">Women's helpline: 1091</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="businesses">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Local businesses</h2>
+        <p class="tag">Shops and services run by residents.</p>
+      </div>
+      <div class="biz-grid">
+        <div class="biz-card">
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\KIRANA STORE.jpeg" alt="MARUTHI KIRANA AND GENERAL STORES" loading="lazy">
+            <figcaption>MARUTHI KIRANA AND GENERAL STORES</figcaption>
+          </figure>
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8l1-4h14l1 4M4 8v11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V8M4 8h16M9 12a2 2 0 1 1-4 0M14 12a2 2 0 1 1-4 0M19 12a2 2 0 1 1-4 0"/></svg>
+          <h3>Grocery stores</h3>
+          <p>Daily provisions and household essentials.</p>
+          <p class="link-row"><a href="https://maps.app.goo.gl/kwsfrw4ZQyW4F96M6?g_st=ac" target="_blank" rel="noopener noreferrer">Find on map ↗</a></p>
+        </div>
+        <div class="biz-card">
+          <figure class="media">
+            <img src="c:\Users\sgv71\Downloads\MED.jpeg" alt="medical shops" loading="lazy">
+            <figcaption>JAI SRIRAM MEDICAL SHOP</figcaption>
+          </figure>
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V9l8-6 8 6v12M9 21v-6h6v6"/></svg>
+          <h3>Medical shops</h3>
+          <p>Pharmacies stocking common medicines.</p>
+          <p class="link-row"><a href="https://maps.app.goo.gl/UNjuT2tSk75w6nmv9?g_st=aw" target="_blank" rel="noopener noreferrer">Find on map ↗</a></p>
+        </div>
+        <div class="biz-card">
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\MESS.jpeg" alt="AMMA MESS" loading="lazy">
+            <figcaption>AMMA MESH</figcaption>
+          </figure>
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="17" r="2.2"/><circle cx="17" cy="17" r="2.2"/><path d="M5 17H3V6h11l4 5h3v6h-2M14 6v6h7"/></svg>
+          <h3>AMMA MESS</h3>
+          <p>Local Mess and Food Services- Fresh and Affordable & Homely meals</p>
+          <p class="link-row"><a href="https://maps.app.goo.gl/Pc8TfnkuGMrxs3T88?g_st=aw" target="_blank" rel="noopener noreferrer">Find on map ↗</a></p>
+        </div>
+        <div class="biz-card">
+          <figure class="media">
+            <img src="c:\Users\sgv71\OneDrive\Desktop\New folder (2)\TAILOR.jpeg" alt="tailors" loading="lazy">
+            <figcaption>TAILOR</figcaption>
+          </figure>
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3l6 3 6-3 2 5-4 2v11H8V10L4 8z"/></svg>
+          <h3>Tailors</h3>
+          <p>Stitching and alteration services.</p>
+          <p class="link-row"><a href="https://maps.app.goo.gl/UNjuT2tSk75w6nmv9?g_st=aw" target="_blank" rel="noopener noreferrer">Find on map ↗</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact-cols">
+      <div class="office-block">
+        <div class="section-head" style="border:none; margin-bottom:16px;">
+          <h2>Panchayat office</h2>
+        </div>
+        <dl>
+          <div><dt>Address</dt><dd>JONNADA Village, VIZIANAGARAM DIST ,535005</dd></div>
+          <div><dt>Phone</dt><dd>7731968271</dd></div>
+          <div><dt>Email</dt><dd>jonnada123@gmail.com</dd></div>
+          <div><dt>Office hours</dt><dd>Mon–Sat, 10:00 AM – 5:00 PM</dd></div>
+        </dl>
+      </div>
+      <div>
+        <div class="section-head" style="border:none; margin-bottom:16px;">
+          <h2>Send a query</h2>
+        </div>
+        <form class="query" action="mailto:panchayat@JONNADAvillage.example" method="get">
+          <div>
+            <label for="fname">Name</label>
+            <input id="fname" name="name" type="text" required>
+          </div>
+          <div>
+            <label for="fphone">Phone number</label>
+            <input id="fphone" name="phone" type="tel" required>
+          </div>
+          <div>
+            <label for="fmsg">Message</label>
+            <textarea id="fmsg" name="message" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" style="align-self:flex-start;">Send message</button>
+          <p style="font-size:0.85rem; color:var(--ink-soft); margin:0;">Opens your email app, addressed to the Panchayat office.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap footer-row">
+    <span>© 2026 JONNADA Village Gram Panchayat. Information portal maintained by the Panchayat office.</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+</body>
+</html>
